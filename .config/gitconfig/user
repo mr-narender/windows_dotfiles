@@ -1,0 +1,14 @@
+[user]
+    name = Narender Singh
+    email = narender@.com
+    signingKey = ~/.ssh/id_rsa.pub
+
+[gpg]
+    format = ssh
+
+[commit]
+    gpgsign = true
+    template = ~/.config/gitconfig/template.txt
+
+[push]
+    default = simple

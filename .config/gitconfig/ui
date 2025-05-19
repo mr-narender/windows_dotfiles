@@ -1,0 +1,15 @@
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    ui = true
+
+[log]
+    showSignature = false
+
+[help]
+    autocorrect = 1
+
+[grep]
+    extendRegexp = true
+    lineNumber = true

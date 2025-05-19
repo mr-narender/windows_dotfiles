@@ -1,0 +1,20 @@
+[merge]
+    tool = diffmerge
+    ff = no
+
+[mergetool "diffmerge"]
+    cmd = diffmerge --merge --result=$MERGED $LOCAL $BASE $REMOTE
+    trustExitCode = true
+    keepBackup = false
+
+[mergetool "vscode"]
+    cmd = "code --wait "
+
+[diff]
+    tool = diffmerge
+
+[difftool]
+    prompt = false
+
+[difftool "diffmerge"]
+    cmd = diffmerge $LOCAL $REMOTE

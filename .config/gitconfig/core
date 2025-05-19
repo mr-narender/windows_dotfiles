@@ -1,0 +1,19 @@
+[core]
+    compression = -1
+    excludesfile = ~/.gitignore
+    editor = vim
+    autocrlf = input
+    whitespace = trailing-space,space-before-tab
+    precomposeunicode = true
+
+[init]
+    defaultBranch = main
+
+[credential]
+    helper = manager-core
+
+[http]
+    postBuffer = 524288000
+
+[submodule]
+    fetchJobs = 4

@@ -1,0 +1,5 @@
+[commit]
+    gpgsign = true
+    template = ~/.config/gitconfig/template.txt
+[gpg]
+    format = ssh
