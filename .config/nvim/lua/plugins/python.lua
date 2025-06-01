@@ -2,6 +2,16 @@ return {
 
     { import = "lazyvim.plugins.extras.lang.python" },
 
+    -- {
+    --     ---@module 'python'
+    --     {
+    --         "joshzcold/python.nvim",
+    --         ---@type python.Config
+    --         opts = { ---@diagnostic disable-line: missing-fields`
+    --         }
+    --     }
+    -- },
+
     {
         "mfussenegger/nvim-dap-python",
         -- stylua: ignore
